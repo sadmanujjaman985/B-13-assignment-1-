@@ -63,6 +63,7 @@ nav .nav-logo img{
     width:100%;
     /* max-width:1600px;
     height:674px; */
+    padding-bottom:20px;
     
 }
 
@@ -176,6 +177,7 @@ section .banner-early-access-icon p{
     align-items: center;
     gap:16px;
     margin-bottom:80px;
+
 }
 
 .button-section .btn {
@@ -229,6 +231,7 @@ section .notes-title-container p{
     color: #627382;
     font-size: 16px;
     font-weight: 400;
+    padding-bottom:44px;
 }
 .Info-container{
     /* border: 1px solid red; */
