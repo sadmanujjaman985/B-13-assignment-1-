@@ -377,3 +377,40 @@ section .fourth-main-container p{
     text-align:center;
     padding-top:24px;
 }
+
+footer section{
+    background-color: #001931;
+    margin:0 auto;
+}
+footer .upper-info{
+    color:white;
+    margin:0 auto;
+    padding-top:120px;
+    padding-left:120px;
+    padding-right:120px;
+    padding-bottom:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    /* object-fit: cover; */
+}
+footer .social-links img{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-copyright
+
+.copyright-text{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    padding-top: 20px;
+    padding-bottom:30px;
+    padding-left:120px;
+    padding-right:120px;
+    border-top:1px solid #627382;
+    margin-right:60px;
+    margin-left:60px;
+}
