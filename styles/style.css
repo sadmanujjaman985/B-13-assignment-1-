@@ -7,18 +7,24 @@ header{
     background-color: #ffff;
 }
 nav{
-    border:1px solid black;
+    /* border:1px solid black; */
     width:1140px;
     height:92px;
     margin:0 auto;
     display:flex;
     justify-content: space-between;
     /* align-items: center; */
+    border-bottom:1px solid whitesmoke;
 }
 nav ul{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    gap:50px
-    padding-top:34px;
+    gap:50px;
+    list-style:none;
+    
+}
+nav .nav-logo img{
+    padding-top:16px;
+    width:139px;
 }
