@@ -3,6 +3,15 @@
     padding:0;
     box-sizing: border-box;
 }
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 header{
     background-color: #ffff;
 }
