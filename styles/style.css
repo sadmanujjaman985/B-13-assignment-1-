@@ -24,7 +24,111 @@ nav ul{
     list-style:none;
     
 }
+.btn{
+    border:none;
+    color:#ffff;
+    background-color:#2aa15b;
+    padding: 12.5px;
+    width:160px;
+    border-radius: 5px;}
+.btn2{
+    border:1px solid #1e8d4c;
+    color:#ffff;
+    background-color:transparent;
+    padding: 12.5px;
+    width:160px;
+    border-radius: 5px;}
 nav .nav-logo img{
     padding-top:16px;
     width:139px;
+}
+ nav .btn{
+    border:none;
+    color:#ffff;
+    background-color:#2aa15b;
+    padding: 12.5px;
+    width:160px;
+    border-radius: 5px;
+}
+ header .main-container{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(255, 151, 14);
+    background: url(../assets/hero-bg.png);
+    /* max-width:1600px;
+    height:674px; */
+    
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* text-align: center; */
+    /* max-width:1360px;
+    height:379px; */
+    text-align: center; 
+    margin-top: 154.5px;
+    margin-bottom:179.5px;
+    margin-left:341px;
+    margin-right:341px;
+    /* padding-top:51px; */
+    
+}
+.text-container h1{
+    color:#ffff;
+    /* max-width:1360px; */
+    /* width:770px; */
+    /* padding-top: 51px; */
+    /* padding-bottom:16px;
+    padding-left:341px;
+    padding-right:341px; */
+    margin:0 auto;
+    font-size:70px;
+    font-weight: bold;
+    /* display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+     */
+}
+.text-container p{
+    color: rgba(255, 255, 255, 1);
+    max-width:1360px;
+    width:770px;
+    /* padding-top: 51px;*/
+    padding-bottom:32px;
+    /* padding-left:341px; 
+    margin-right:341px;*/
+    margin:0 auto;
+    /* display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+     */
+}
+.text-container #span-color-green{
+    color:rgba(48, 184, 104, 1);
+}
+.btn{
+
+    border:none;
+    color:#ffff;
+    background-color:#2aa15b;
+    padding: 12.5px;
+    width:160px;
+    border-radius: 5px;
+}
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+
+.button-section .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
