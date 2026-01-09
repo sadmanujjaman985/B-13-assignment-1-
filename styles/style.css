@@ -220,7 +220,8 @@ section .notes-title-container p{
     border-top-left-radius:8px;
     border-top-right-radius:8px;
     text-align: center;
-    box-shadow:0px -1px 3px rgb(31, 29, 29);
+    
+    box-shadow:-0px -1px 1px rgb(31, 29, 29);
 }
 .info-card img{
     background-color: #f95555;
@@ -251,4 +252,45 @@ section .notes-title-container p{
     padding-left:10px;
     padding-right:10px;
     color: #000000;
+}
+/* 3rd section/brain-container */
+section .second-brain-section-container{
+    padding:120px 120px 120px 120px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items: center; 
+}
+.brain-text-info {
+    box-sizing: border-box;
+    text-align:left;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right:170px;
+}
+.brain-text-info h1,p{
+    text-align: left;
+    padding-top:16px;
+}
+.brain-text-info h1 {
+    color: #001931;
+    font-size: 48px;
+    font-weight:bold;
+}
+.brain-text-info .para-1{
+    color: #30B868;
+}
+.brain-text-info #para-2{
+    font-size:16px;
+    color: #627382;
+}
+.brain-text-info {
+    box-sizing: border-box;
+    text-align:left;
+    display: flex;
+    /* justify-content: flex-start; */
+    padding-right:80px;
 }
